@@ -41,7 +41,7 @@ class YOLODetector:
 # Usage example:
 if __name__ == "__main__":
     detector = YOLODetector("yolov9c.pt")
-    detector.load_image("Data/5.jpg")
+    detector.load_image("Data/5.jpg") # Change this to your input file path
     detector.detect_objects()
     detector.draw_boxes()
     detector.display_image()
